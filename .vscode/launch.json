@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Streamlit Run",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/pro.py",
+            "console": "integratedTerminal",
+            
+            "env": {"STREAMLIT_RUN_COMMAND": "streamlit run"}
+        }
+    ]
+}
